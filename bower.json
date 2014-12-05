@@ -7,8 +7,8 @@
     "jadjoubran <jad@jadjoubran.com>"
   ],
   "main": [
-    "dist/android_toast.min.js",
-    "dist/android_toast.min.css"
+    "src/android_toast.js",
+    "src/android_toast.css"
   ],
   "keywords": [
     "android",
