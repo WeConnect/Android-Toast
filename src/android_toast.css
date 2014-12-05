@@ -6,21 +6,21 @@ Android-Toast
 #android_toast_container{
 	width: 100%;
 	position: fixed;
-	bottom: 12%;
+	bottom: 20%;
 	left: 0;
 }
 
 #android_toast{
-	width: 80%;
+	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgb(48, 52, 55);
 	color: rgb(245, 245, 245);
-	font-size: 13px;
-	padding: 5px;
+	padding: 10px;
+	font-size: 20px;
 	border-radius: 2px;
 	-webkit-border-radius: 2px;
-	opacity: 0.95;
+	opacity: 1;
 	-webkit-box-shadow:  1px 2px 2px 1px rgba(34, 34, 34, 1);
 	box-shadow:  1px 2px 2px 1px rgba(34, 34, 34, 1);
 	text-align: center;

@@ -64,6 +64,7 @@ Android-Toast
 		toast_container.appendChild(toast);
 
 		this.timeout_id = setTimeout(this.hide, this.duration);
+		body.onclick = this.hide;
 		return true;
 	};
 
