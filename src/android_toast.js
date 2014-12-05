@@ -76,6 +76,7 @@ Android-Toast
 		}
 
 		clearTimeout(this.timeout_id);
+		body.onclick = null;
 
 		toast_container.className += ' android_toast_fadeout';
 
